@@ -120,6 +120,7 @@ const Tabs = () => {
                 name="Home"
                 component={Home}
                 options={{
+                    headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <MaterialCommunityIcons name="silverware-fork-knife" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} />
 
@@ -143,6 +144,7 @@ const Tabs = () => {
                 name="Search"
                 component={Home}
                 options={{
+                    headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <Feather name="search" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} />
                         //  modify of image in tab navigation ( module test) next step.
@@ -166,6 +168,7 @@ const Tabs = () => {
                 name="Like"
                 component={Home}
                 options={{
+                    headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <AntDesign name="heart" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} />
                         //  modify of image in tab navigation ( module test) next step.
@@ -189,6 +192,7 @@ const Tabs = () => {
                 name="User"
                 component={Home}
                 options={{
+                    headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <Ionicons name="person-sharp" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} resizeMode="contain" />
 
