@@ -3,7 +3,7 @@ const { width, height } = Dimensions.get("window");
 
 export const COLORS = {
     // base colors
-    primary: "#FC6D3F", // orange
+    primary: "#FA5061", // orange
     secondary: "#CDCDD2",   // gray
 
     // colors
@@ -17,6 +17,7 @@ export const COLORS = {
     transparent: "transparent",
     darkgray: '#898C95',
 };
+
 
 export const SIZES = {
     // global sizes
