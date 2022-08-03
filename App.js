@@ -3,7 +3,7 @@ import React from 'react';
 import Tabs from './navigation/tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native'
-import { Home, Restaurant, OrderDelivery } from './screens'
+import { Restaurant, OrderDelivery } from './screens'
 import { useFonts } from 'expo-font';
 
 

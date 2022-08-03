@@ -330,7 +330,6 @@ export default function Home({ navigation }) {
   const [selectedCategory, setSelectedCategory] = React.useState(null)
   const [restaurants, setRestaurants] = React.useState(restaurantData)
   const [currentLocation, setCurrentLocation] = React.useState(initialCurrentLocation)
-  { console.log(categories) }
 
 
   function onSelectCategory(category) {
