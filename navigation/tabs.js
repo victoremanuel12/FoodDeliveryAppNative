@@ -123,18 +123,6 @@ const Tabs = () => {
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <MaterialCommunityIcons name="silverware-fork-knife" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} />
-
-                        //  modify of image in tab navigation ( module test) next step.
-
-                        // <Image
-                        //     source={icons.cutlery}
-                        //     resizeMode="contain"
-                        //     style={{
-                        //         width: 25,
-                        //         height: 25,
-                        //         tintColor: focused ? COLORS.primary : COLORS.secondary
-                        //     }}
-                        // />
                     ),
                     tabBarButton: props => <TabBarCustomButton {...props} />
                 }}
@@ -147,17 +135,6 @@ const Tabs = () => {
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <Feather name="search" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} />
-                        //  modify of image in tab navigation ( module test) next step.
-
-                        // <Image
-                        //     source={icons.search}
-                        //     resizeMode="contain"
-                        //     style={{
-                        //         width: 25,
-                        //         height: 25,
-                        //         tintColor: focused ? COLORS.primary : COLORS.secondary
-                        //     }}
-                        // />
                     ),
                     tabBarButton: props => <TabBarCustomButton {...props} />
 
@@ -171,17 +148,6 @@ const Tabs = () => {
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <AntDesign name="heart" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} />
-                        //  modify of image in tab navigation ( module test) next step.
-
-                        // <Image
-                        //     source={icons.like}
-                        //     resizeMode="contain"
-                        //     style={{
-                        //         width: 25,
-                        //         height: 25,
-                        //         tintColor: focused ? COLORS.primary : COLORS.secondary
-                        //     }}
-                        // />
                     ),
                     tabBarButton: props => <TabBarCustomButton {...props} />
 
@@ -195,17 +161,6 @@ const Tabs = () => {
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <Ionicons name="person-sharp" size={28} style={{ color: focused ? COLORS.primary : COLORS.secondary }} resizeMode="contain" />
-
-                        //  modify of image in tab navigation ( module test) next step.
-                        // <Image
-                        //     source={icons.user}
-                        //     resizeMode="contain"
-                        //     style={{
-                        //         width: 25,
-                        //         height: 25,
-                        //         tintColor: focused ? COLORS.primary : COLORS.secondary
-                        //     }}
-                        // />
                     ),
                     tabBarButton: props => <TabBarCustomButton {...props} />
                 }}
